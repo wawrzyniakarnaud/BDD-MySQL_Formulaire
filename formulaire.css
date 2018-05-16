@@ -1,0 +1,76 @@
+.all {
+     text-align: center;
+     margin-top: 20vh;
+     color: whitesmoke;
+     font-size: 1.1em;
+
+}
+
+input {
+     height: 30px;
+     width: 250px;
+     border-radius: 25px;
+     padding: 5px;
+     box-shadow: 1px 2px 5px gsrey inset;
+     color: darkolivegreen;
+     font-weight: 700;
+     text-align: center;
+}
+.radio{
+     box-shadow: none;
+     width: 50px;
+     height: 15px;
+     margin-top: 30px;
+}
+.select{
+     margin-top: 30px;
+}
+input[type="checkbox" i]{
+     height: 20px;
+     margin-top: 30px;
+     margin:none;
+     width: 30px;
+}
+
+.txt {
+     height: 100px;
+     text-align: center;
+     width: 300px;
+     border-radius: 25px;
+     padding: 10px;
+     color: darkolivegreen;
+     font-weight: 700;
+     box-shadow: 1px 2px 5px grey inset;
+
+}
+
+.btn {
+     margin-top: 20px;
+     box-shadow: 2px 2px 5px grey;
+}
+
+.btn:hover {
+     box-shadow: 2px 2px 5px black inset;
+}
+
+.clr {
+     color: darkred;
+     font-size: 1em;
+}
+
+::placeholder {
+     color: darkred;
+     text-align: center;
+     font-weight: 800;
+}
+body{
+     background-image: url(background.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+header{
+     color: blanchedalmond;
+     text-align: center;
+     text-decoration: underline;
+     font-family: cursive;
+}
